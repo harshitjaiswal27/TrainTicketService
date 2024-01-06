@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainTicketTests", "TrainTicketTests\TrainTicketTests.csproj", "{4597F8B9-D1FA-4E9D-86AE-59548E3ABCF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C201C45-9F3D-4F60-85FC-7CF71BCCD2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C201C45-9F3D-4F60-85FC-7CF71BCCD2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C201C45-9F3D-4F60-85FC-7CF71BCCD2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C201C45-9F3D-4F60-85FC-7CF71BCCD2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4597F8B9-D1FA-4E9D-86AE-59548E3ABCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4597F8B9-D1FA-4E9D-86AE-59548E3ABCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4597F8B9-D1FA-4E9D-86AE-59548E3ABCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4597F8B9-D1FA-4E9D-86AE-59548E3ABCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC16B555-1DCE-4172-AA32-B83B9A232CE9}
+	EndGlobalSection
+EndGlobal

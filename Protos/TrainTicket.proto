@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option csharp_namespace = "TrainTicketService";
+
+package TrainTicket;
+
+message User {
+    string first_name = 1;
+    string last_name = 2;
+    string email = 3;
+}
+
+message Ticket {
+    string from = 1;
+    string to = 2;
+    User user = 3;
+    float price_paid = 4;
+    string section = 5;
+}
+
+message SectionRequest {
+    string section = 1;
+}
+
+message Request {
+    string email = 1;
+}
+
+service TrainTicket {
+    rpc PurchaseTicket(Ticket) returns (Ticket);
+    rpc GetReceipt(Request) returns (Ticket);
+    rpc GetUsersBySection(SectionRequest) returns (stream Ticket); 
+    rpc RemoveUser(Request) returns (Ticket);
+    rpc ModifySeat(Ticket) returns (Ticket);
+}
